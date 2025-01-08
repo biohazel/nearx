@@ -9,7 +9,7 @@ now off to some blockchain exploration commands
 bitcoin-cli getblockcount
 bitcoin-cli getblockhash (block height, for genesis block is zero)
 bitcoin-cli getblock (hash) (verbosity 2) //da pra usar com ou sem verbosity. e no hex to ascii dessa tx de coinbase desse bloco genesis 0  tem a frase do satoshi 
-bitcoin-cli crratewallet luciana
+bitcoin-cli createwallet salario
 bitcoin-cli listwallets
 bitcoin-cli help getnewaddress (mostra os tipos: legacy, p2sh-segwit, bech32, bech32m)
 bitcoin-cli unloadwallet "" //unloads default wallet
